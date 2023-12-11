@@ -1,0 +1,9 @@
+<h3>Add User</h3>
+<label>Name:</label>
+<input #myvalue [(ngModel)]="x.name" placeholder="Name" value="name">
+<label>city:</label>
+<input [(ngModel)]="x.password" placeholder="City" value="name">
+
+<button (click)="addUser()">Add User</button>
+<a [routerLink]="['/']"
+class="btn btn-primary">Go Back</a>

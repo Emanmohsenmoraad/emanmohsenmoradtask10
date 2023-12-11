@@ -1,0 +1,5 @@
+<input [(ngModel)]="newUser.name" name="name"/>
+<input [(ngModel)]="newUser.city" name="city"/>
+<button (click)=" saveEdit(newUser)">Save</button>
+<a [routerLink]="['/']"
+class="btn btn-primary">Go Back</a>
